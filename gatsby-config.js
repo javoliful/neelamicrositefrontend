@@ -21,7 +21,8 @@ module.exports = {
     {
       resolve: `gatsby-source-strapi`,
       options: {
-        apiURL: `http://localhost:1337`,
+        apiURL: `http://3c1d4c321cbb.ngrok.io`,
+        //apiURL: `http://localhost:1337`,
         queryLimit: 1000,
         contentTypes: ['paginas', 'chatbots']
       }
